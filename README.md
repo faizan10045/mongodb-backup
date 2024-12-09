@@ -4,12 +4,14 @@
 ## Getting started
 
 ### Scope
-Standardized way of taking MongoDB backups through a script reducing manual efforts of creating a database session by logging in and taking backups
-### Reason
+Standardized way of taking MongoDB backups through a script reducing manual efforts of creating a database session by logging in and taking backups.
 This is greatly beneficial for users for any activity that requires to take a backup without going inside database. 
 
 ### Idea
 The idea behind this script is to take backup of single collection or full collection or full database backup without writing any commands. We are doing it here in the script for 2 environments like Staging and Production environment. Just modify the script to include more environments. Furthermore, a test document is included to give you an idea on the type of testing performed on this script and how validation of data is performed.
+
+![image](https://github.com/user-attachments/assets/9bbaedaf-d39e-411d-9d63-9c21f016c13f)
+![image](https://github.com/user-attachments/assets/31c57d15-0a85-4864-809f-b83644245fed)
 
 ## Usage
 
